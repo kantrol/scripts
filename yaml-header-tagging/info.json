@@ -1,0 +1,10 @@
+{
+  "name": "YAML header support",
+  "identifier": "yaml-header-tagging",
+  "script": "yaml-header-tagging.qml",
+  "authors": ["@Offerel"],
+  "platforms": ["linux", "macos", "windows"],
+  "version": "0.0.1",
+  "minAppVersion": "18.05.2",
+  "description" : "This script add's YAML header support to QON and is compatible at least with \"Epsilon Notes\" (Android) and \"PrimitiveNotes\" (Roundcube). If a markdown file has a YAML header, this header is hidden from the preview, but visible in the QON editor.\r\n\r\nAdditionally, if you open a markdownfile, it compares tags found in the YAML header with the QON tag database. If new tags are found in the markdownfile, not associated with the opened note, this tags are added to the QON tag database and associated with the note. The other way, if QON have more tags than the opened markdownfile, this tags are added to the YAML header of the markdownfile.\r\n\r\nIf the markdownfile have no YAML header, a new YAML header is created and added to the markdownfile. You can find more about YAML header at http://epsilonexpert.com/e/info/tags.php?i=2"
+}
